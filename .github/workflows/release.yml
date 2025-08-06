@@ -39,7 +39,7 @@ jobs:
             --title "FakeName ${{ env.ASSEMBLY_VERSION }}" --notes ""
       - name: update repo.json
         run: |
-          LINK="https://github.com/keifufu/FakeName/releases/download/${{ env.ASSEMBLY_VERSION }}/latest.zip"
+          LINK="https://github.com/cakefoxy/FakeName/releases/download/${{ env.ASSEMBLY_VERSION }}/latest.zip"
           VER="${{ env.ASSEMBLY_VERSION }}"
           API_LEVEL="${{ env.API_LEVEL }}"
           jq --arg link "$LINK" --arg ver "$VER" --arg apilevel "$API_LEVEL" '(.[0].DownloadLinkInstall) = $link | .[0].DownloadLinkUpdate = $link | .[0].AssemblyVersion = $ver | .[0].DalamudApiLevel = $apilevel' repo.json > tmp.json && mv tmp.json repo.json
