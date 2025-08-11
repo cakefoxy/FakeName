@@ -10,5 +10,5 @@
   "Changelog": "",
   "Tags": ["name", "ui"],
   "LoadPriority": 128,
-  "DalamudApiLevel": 12
+  "DalamudApiLevel": 13
 }
