@@ -21,9 +21,9 @@
     "IconUrl": "https://raw.githubusercontent.com/cakefoxy/FakeName/main/icon.png",
     "Punchline": "Show a fake name on your game ui.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/cakefoxy/FakeName/releases/download/0.1.1.9/latest.zip",
-    "AssemblyVersion": "0.1.1.9",
-    "DownloadLinkUpdate": "https://github.com/cakefoxy/FakeName/releases/download/0.1.1.9/latest.zip",
+    "DownloadLinkInstall": "https://github.com/cakefoxy/FakeName/releases/download/v0.1.1.9/latest.zip",
+    "AssemblyVersion": "v0.1.1.9",
+    "DownloadLinkUpdate": "https://github.com/cakefoxy/FakeName/releases/download/v0.1.1.9/latest.zip",
     "DownloadCount": 1,
     "Changelog": "- Updated for 7.3/API13/NET9"
   }
